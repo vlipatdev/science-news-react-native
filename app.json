@@ -1,0 +1,28 @@
+{
+	"expo": {
+		"name": "Science News",
+		"slug": "science-news",
+		"android": {
+			"package": "com.iridiumlab.sciencenews",
+			"enableDangerousExperimentalLeanBuilds": false,
+			"versionCode": 47,
+			"permissions": [],
+			"config": {
+				"googleMobileAdsAppId": "ca-app-pub-7459960426696151~9566120136"
+			}
+		},
+		"platforms": ["android"],
+		"version": "2.1.16",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 5000
+		},
+		"assetBundlePatterns": ["**/*"]
+	}
+}
